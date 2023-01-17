@@ -68,6 +68,7 @@ nav{
 }
 #about{
     padding: 100px 50px;
+    background: linear-gradient(-160deg, #e74c3c 33%, white 0%);
 }
 .section-info{
     font-weight: bold;
@@ -107,10 +108,11 @@ nav{
 }
 #skills{
     padding: 100px 50px;
-    background: url("../images/bg2.jpg");
+    background: linear-gradient(160deg, #e74c3c 45%, white 0%);
+    /* background: url("../images/bg2.jpg"); */
     background-size: cover;
     color: white;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .skills-row{
     display: flex;
@@ -145,6 +147,7 @@ progress{
 }
 #services{
     padding: 100px 50px;
+    background: linear-gradient(-160deg, #e74c3c 25%, white 0%);
 }
 .services-row{
     display: flex;
@@ -200,7 +203,7 @@ progress{
 }
 #footer{
     background: #e74c3c;
-    color: white;
+    color: rgb(45,52,54);
     padding: 20px;
     display: flex;
     justify-content: space-around;

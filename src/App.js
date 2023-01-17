@@ -23,7 +23,7 @@ function App() {
         <div class="text">
             <p>Hello, I am</p>
             <h1> Shaikh Salman</h1>
-            <p>And I am a <span id="#ani" style={{color:"#e74c3c"}}></span></p>
+            <p>And I am a Software Developer.<span id="#ani" style={{color:"#e74c3c"}}></span></p>
             <button class="c-btn">Hire me</button>
         </div>
 
@@ -41,17 +41,17 @@ function App() {
 
     <section id="about">
         <div class="section-info">
-            <h1>About</h1>
-            <p>Who i am?</p>
+            <h1 style={{color: "rgb(45,52,54)"}}>About</h1>
+            <p style={{color: "white"}}>Who i am?</p>
         </div>
         <div class="about-row">
             <div class="about-left-col">
                  <img src={about} alt="about"/>
             </div>
             <div class="about-right-col"> 
-                <p id="p-title"> Hello, I'm Shaikh Salman & I'm <span id="ani2" style={{color:"#e74c3c"}}></span></p>
+                <p id="p-title"> Hello, I'm Shaikh Salman & I'm Software Developer. <span id="ani2" style={{color:"#e74c3c"}}></span></p>
                 <p>
-                    Hi, I'm Shaikh Salman and I graduated from the University of Amravati with a degree in Electronics and Telecommunication.
+                    Hi, I'm Shaikh Salman. I have completed my Master of Engineering(M.E) from MIT college of Engineering, Kothrud, Pune. After That i have done PG-DAC(Post Graduate Diploma in Advance Computing) certification from CDAC Pune.
 					My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.
                 </p>
                 <a href="pdf/html5.pdf" class="button_download">download Cv</a>
@@ -62,14 +62,14 @@ function App() {
      
     <section id="skills">
          <div class="section-info">
-            <h1 style={{color: "white"}}>Skill's</h1>
-            <p>Who i am?</p>
+            <h1 style={{color: "rgb(45,52,54)"}}>Skill's</h1>
+            <p style={{color: "white"}}>Who i am?</p>
         </div>
         <div class="skills-row">
             <div class="skills-left-col">
                 <p >
 				As a web developer we Write well designed, testable, efficient code by using best software development practices.
-				we Create website layout/user interfaces by using standard HTML, CSS, Bootsrap, Javascript and JQuery practices.
+				we Create website layout/user interfaces by using standard HTML, CSS, Bootsrap, Javascript, React JS and Redux practices.
                    
                 </p>
                 <button class="c-btn">Read more</button>
@@ -78,13 +78,13 @@ function App() {
                 <div class="progress-div">
                 <p>
                     <span>HTML</span><br/>
-                    <progress value="90" max="100"></progress>
-                    <span>90%</span>
+                    <progress value="85" max="100"></progress>
+                    <span>85%</span>
                 </p>
                 <p>
                     <span>CSS</span><br/>
-                    <progress value="80" max="100"></progress>
-                   <span>80%</span>
+                    <progress value="85" max="100"></progress>
+                   <span>85%</span>
                 </p>
                 <p>
                     <span>Bootstrap</span><br/>
@@ -93,13 +93,13 @@ function App() {
                 </p>
                 <p>
                     <span>javascript</span><br/>
-                    <progress value="95" max="100"></progress>
-                   <span>95%</span>
-                </p>
-                <p>
-                    <span>JQuery</span><br/>
                     <progress value="85" max="100"></progress>
                    <span>85%</span>
+                </p>
+                <p>
+                    <span>React JS</span><br/>
+                    <progress value="80" max="100"></progress>
+                   <span>80%</span>
                 </p>
                 </div>
             </div>
@@ -108,7 +108,7 @@ function App() {
     
         <section id="services">
         <div class="section-info">
-            <h1>Services</h1>
+            <h1 style={{color: "rgb(45,52,54)"}}>Services</h1>
             <p>What we provide</p>
         </div>
         <div class="services-row">
@@ -124,7 +124,7 @@ function App() {
                 <h2>Web Development</h2>
                 <p>
                     A Web Development service provides you design and construction of websites. We ensure that sites meet client expectations by ensuring they look good,
-					run smoothly and offer easy access points with no loading issues between pages or error messages.
+					run smoothly.
                 </p>
             </div>
             <div class="services-box" data-tilt>
@@ -139,9 +139,9 @@ function App() {
 
 
     <section id="contact">
-         <div class="section-info" style={{color:"white"}}>
-            <h1>Get in Touch</h1>
-            <p style={{color:"black"}}>We are Available</p>
+         <div class="section-info">
+            <h1 style={{color:"rgb(45,52,54)"}}>Get in Touch</h1>
+            <p style={{color:"white"}}>We are Available</p>
         </div>
 
         <div  class="contact-row">
